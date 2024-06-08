@@ -130,3 +130,12 @@ eval "$(zoxide init zsh)"
 You don't have to understand this whole code but i will try to explain it simply\
 this piece of code helps me to get use all neovim cofiguration like nvchad , kickstart, lazy vim & lunar nvim.\
 like i have configured my kikcstrat nvim for jupyternotebook like expirience and many with things with other flavour of nvim.
+
+# Finally what are we going to edit , because that's why we understand the code
+- These will be minor change we will do , like i don't like pokemon summoning in my terminal so is just commmented it out using #
+- i can add another neovim distribution just by adding someline you can use previous once for reference
+- Themeing - in the quotation you can change the themes
+- in plugins table you can add another plugin that will be used\
+
+## For now that's it, sky is the limit guys do what ever change you want with this dotfile, we will configure the tmux in the next repo i will be posting. 
+
