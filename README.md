@@ -93,6 +93,18 @@ pokemon-colorscripts --no-title -s -r
     - --no-title - it means if you remove this you will also have the name of that pokemon
     - -s - it means only shiny pokemon will appear
     - -r - it means that random pokemons will appear , yeah you can set it to only one.
+## How to install this:
+step One - Clone or download the repository
+```
+git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+
+```
+
+Step Two - `cd` into the directory and run the install script
+```
+cd pokemon-colorscripts
+sudo ./install.sh
+```
 
 # CODE - 5 
 
