@@ -88,8 +88,7 @@ source .zshrc
 # Display Pokemon-colorscripts
 pokemon-colorscripts --no-title -s -r
 ```
-As you have seen that some pixelated pokemons appears randomly when i open terminal , this is how i have achieved that\
-i will explain the arguments are provided
+- As you have seen that some pixelated pokemons appears randomly when i open terminal , this is how i have achieved that i will explain the arguments are provided
     - pokemon-colorscripts - it is the script we are running
     - --no-title - it means if you remove this you will also have the name of that pokemon
     - -s - it means only shiny pokemon will appear
