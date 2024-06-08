@@ -36,6 +36,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 ## Now that we have installed every thing we will understand the code we are going to edit 
 ### This whole code is provided in .zshrc file in this repo
 
+## CODE - 1
 ```.zshrc
 # Oh My Zsh configuration
 export ZSH="$HOME/.oh-my-zsh"
@@ -46,11 +47,12 @@ ZSH_THEME="robbyrussell"
 /home/zangetsu/.oh-my-zsh/themes/
 ```
 (zangetsu is username, you must put yours)
-#### I personally use oxide theme 
+#### I personally use oxide theme (i will provide that also in this repo)
 #### 
 1. On the first line we are ensuring that zsh configured each time when we use the terminal
 1. On the second line we are selecting the theme of our terminal
 
+# CODE - 2
 ```.zshrc
 # Plugins
 plugins=(
@@ -68,14 +70,28 @@ plugins=(
 
 As we can see that sytax highlighting is working properly and sugeestions is working properly cause suggestion are grey they are yet not typed
 
+# CODE - 3
 ```.zshrc
 # Load Oh My Zsh
 source "$ZSH/oh-my-zsh.sh"
 ```
+
 This line of code with load oh my zsh\
 and yes there is way we can load our zshrc file we need to perform a single command in terminal\
+This command is used when we make changes to our **.zshrc** file
+
 ```
 source .zshrc
 ```
-
+# CODE - 4
+```.zshrc
+# Display Pokemon-colorscripts
+pokemon-colorscripts --no-title -s -r
+```
+As you have seen that some pixelated pokemons appears randomly when i open terminal , this is how i have achieved that\
+i will explain the arguments are provided
+    - pokemon-colorscripts - it is the script we are running
+    - --no-title - it means if you remove this you will also have the name of that pokemon
+    - -s - it means only shiny pokemon will appear
+    - -r - it means that random pokemons will appear , yeah you can set it to only one.
 
