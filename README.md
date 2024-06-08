@@ -33,13 +33,21 @@ Wget
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-### Now that we have installed every thing we will understand the code we are going to edit 
+## Now that we have installed every thing we will understand the code we are going to edit 
+### This whole code is provided in .zshrc file in this repo
 
 ```.zshrc
 # Oh My Zsh configuration
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 ```
+#### To add your choice of zsh theme use must know the place where to put it that is , in my case it is:
+```
+/home/zangetsu/.oh-my-zsh/themes/
+```
+(zangetsu is username, you must put yours)
+
+#### I personally use oxide theme 
 1. On the first line we are ensuring that zsh configured each time when we use the terminal
 1. On the second line we are selecting the theme of our terminal
 
