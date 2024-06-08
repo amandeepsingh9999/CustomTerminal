@@ -7,6 +7,8 @@
 > 1. ZSH
 > 1. TMUX
 > 1. ZOXIDE
+> This repo is specific for zsh but why mentioned all three of them here in this repo.
+> Because i wanna let you know there are more customization on terminal other than how it looks.
 
 # 1. ZSH
 In Explaining with simple words i will tell you what is zsh . zsh stands for z - shell it is basically used for plugins and themeing our terminal.
@@ -30,3 +32,20 @@ Wget
 ```
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
