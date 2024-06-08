@@ -55,4 +55,18 @@ plugins=(
   - git - it allows us to perform git operations like clone and etc.
   - zsh-autosuggestions - this extension is used for suggestions which will be shown in next image i will put .
   - zsh-syntax-highlighting - which will highlight words which probably is in our source code it allows us to highlight ssome terms it will be also shown in next image
+
 ![](Assets/Images/Screenshot_08-Jun_22-50-34_27015.png)
+
+As we can see that sytax highlighting is working properly and sugeestions is working properly cause suggestion are grey they are yet not typed
+
+```.zshrc
+# Load Oh My Zsh
+source "$ZSH/oh-my-zsh.sh"
+```
+This line of code with load oh my zsh\
+and yes there is way we can load our zshrc file we need to perform a single command in terminal\
+```
+source .zshrc
+```
+
