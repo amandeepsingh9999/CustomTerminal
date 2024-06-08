@@ -5,3 +5,5 @@
 > 1. ZSH
 > 1. TMUX
 > 1. ZOXIDE
+
+# 1. ZSH
