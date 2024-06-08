@@ -1,4 +1,6 @@
 # 🛠 CustomTerminal ~ >
+## What are we gonna achieve -
+![](Assets/Images/Screenshot_08-Jun_17-46-31_27791.png)
 
 > [!NOTE]
 > This repo is divided into three part in each part i will covering
