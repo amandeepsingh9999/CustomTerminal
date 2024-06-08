@@ -46,8 +46,8 @@ ZSH_THEME="robbyrussell"
 /home/zangetsu/.oh-my-zsh/themes/
 ```
 (zangetsu is username, you must put yours)
-
 #### I personally use oxide theme 
+#### 
 1. On the first line we are ensuring that zsh configured each time when we use the terminal
 1. On the second line we are selecting the theme of our terminal
 
@@ -77,4 +77,5 @@ and yes there is way we can load our zshrc file we need to perform a single comm
 ```
 source .zshrc
 ```
+
 
