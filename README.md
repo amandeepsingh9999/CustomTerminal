@@ -94,3 +94,39 @@ pokemon-colorscripts --no-title -s -r
     - -s - it means only shiny pokemon will appear
     - -r - it means that random pokemons will appear , yeah you can set it to only one.
 
+# CODE - 5 
+
+```.zshrc
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+```
+
+These settings ensure that Zsh keeps a history of up to 10,000 commands, both for the current session and across multiple sessions, by saving them in a file called .zsh_history in your home directory
+
+# CODE - 6
+```.zshrc
+# Function to select and open Neovim configuration
+nvims() {
+  local items=("default" "kickstart" "LazyVim" "NvChad" "AstroNvim")
+  local config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=50% --layout=reverse --border --exit-0)
+  
+  if [[ -z $config ]]; then
+    echo "Nothing selected"
+    return 0
+  fi
+
+  [[ $config == "default" ]] && config=""
+  NVIM_APPNAME=$config nvim "$@"
+}
+
+# Bind nvims function to CTRL+A
+bindkey -s ^a "nvims\n"
+
+# Initialize zoxide
+eval "$(zoxide init zsh)"
+```
+You don't have to understand this whole code but i will try to explain it simply\
+this piece of code helps me to get use all neovim cofiguration like nvchad , kickstart, lazy vim & lunar nvim.\
+like i have configured my kikcstrat nvim for jupyternotebook like expirience and many with things with other flavour of nvim.
