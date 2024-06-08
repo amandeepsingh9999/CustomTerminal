@@ -32,9 +32,27 @@ Wget
 ```
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
+### Now that we have installed every thing we will understand the code we are going to edit 
+
 ```.zshrc
 # Oh My Zsh configuration
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 ```
+1. On the first line we are ensuring that zsh configured each time when we use the terminal
+1. On the second line we are selecting the theme of our terminal
 
+```.zshrc
+# Plugins
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+```
+- we integrating our terminal with some plugins inside our plugins table
+  - git - it allows us to perform git operations like clone and etc.
+  - zsh-autosuggestions - this extension is used for suggestions which will be shown in next image i will put .
+  - zsh-syntax-highlighting - which will highlight words which probably is in our source code it allows us to highlight ssome terms it will be also shown in next image
+![](Assets/Images/Screenshot_08-Jun_22-50-34_27015.png)
