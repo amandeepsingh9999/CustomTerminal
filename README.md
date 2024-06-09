@@ -1,5 +1,3 @@
-Sure, here’s a more interactive version with emojis added for better engagement:
-
 # 🛠 CustomTerminal ~ >
 
 ## What Are We Going to Achieve?
